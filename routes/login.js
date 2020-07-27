@@ -56,7 +56,7 @@ Login.post("/", (req, res) => {
     }
 
     else if(req.body.type === "manager"){
-      client.db("CustomerManagement1")
+      client.db("CustomerManagement")
       .collection("manager")
       .findOne({ email: req.body.email }, (err, data) => {
         if (err) throw err;
@@ -89,7 +89,7 @@ Login.post("/", (req, res) => {
     }
 
     else if(req.body.type === "employee"){
-      client.db("CustomerManagement1")
+      client.db("CustomerManagement")
       .collection("employee")
       .findOne({ email: req.body.email }, (err, data) => {
         if (err) throw err;
