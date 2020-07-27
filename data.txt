@@ -1,0 +1,40 @@
+const dbURL = "mongodb://127.0.0.1:27017";
+//const dbURL ="mongodb+srv://padma:pa6789@cluster0.rkjto.mongodb.net/CustomerManagement?retryWrites=true&w=majority";
+unique key=uzKfyTDx4v5z6NSV;
+
+
+post manager 
+{
+    "firstname":"Ben",
+    "lastname":"Ten",
+    "email":"ben@gmail.com",
+    "password":"benten",
+    "type":"manager"
+}
+
+post employee
+{
+    "firstname":"Ben",
+    "lastname":"Ten",
+    "email":"ben1@gmail.com",
+    "password":"benten",
+    "type":"employee",
+    "employeetype":"junior"
+}
+
+approve manager
+
+//admin login
+{
+    "Approve":true
+}
+
+
+addservice
+//manager login
+{
+        "customer": "customer1",
+        "mobile": 9159675656,
+        "service": "refrigater",
+        "status": "cancelled"
+}
