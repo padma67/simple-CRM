@@ -17,7 +17,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jcrypt": "^1.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "local-storage": "^2.0.0",
     "mongodb": "^3.5.9",
     "node-localstorage": "^2.1.6"
